@@ -1,0 +1,11 @@
+name: researchm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - psutil
+  - python=3.11
+  - pytorch
+  - pytorch-cuda=12.4
+  - torchvision

@@ -14,8 +14,8 @@ from torchvision import datasets, transforms, models
 # ========================================
 # Global Configuration
 # ========================================
-NUM_RUNS = int(sys.argv[1]) if len(sys.argv) > 1 else 3
-NUM_EPOCHS = int(sys.argv[2]) if len(sys.argv) > 2 else 10
+NUM_RUNS = int(sys.argv[1]) if len(sys.argv) > 1 else 5
+NUM_EPOCHS = int(sys.argv[2]) if len(sys.argv) > 2 else 30
 
 # Get project root directory (parent of parent of train.py)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

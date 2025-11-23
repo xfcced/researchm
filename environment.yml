@@ -9,3 +9,6 @@ dependencies:
   - pytorch
   - pytorch-cuda=12.4
   - torchvision
+  - pandas
+  - matplotlib
+  - seaborn

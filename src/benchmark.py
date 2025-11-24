@@ -7,7 +7,7 @@ import subprocess
 # ========================================
 # Configuration
 # ========================================
-DOCKER_IMAGE = "test:latest"
+DOCKER_IMAGE = "researchm:latest"
 
 
 def main():
@@ -58,12 +58,6 @@ def main():
             "-v",
             f"{os.getcwd()}:/workspace",
             DOCKER_IMAGE,
-            "micromamba",
-            "run",
-            "-n",
-            "researchm",
-            "python",
-            "src/train.py",
             str(NUM_RUNS),
             str(NUM_EPOCHS),
         ]

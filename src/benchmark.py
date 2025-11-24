@@ -39,7 +39,7 @@ def main():
             "-n",
             "researchm",
             "python",
-            "train.py",
+            "src/train.py",
             str(NUM_RUNS),
             str(NUM_EPOCHS),
         ]
@@ -63,7 +63,7 @@ def main():
             "-n",
             "researchm",
             "python",
-            "train.py",
+            "src/train.py",
             str(NUM_RUNS),
             str(NUM_EPOCHS),
         ]
